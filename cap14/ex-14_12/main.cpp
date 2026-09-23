@@ -23,8 +23,10 @@ int main (int argc, char *argv[])
     std::cout << "Digite o raio do círculo: ";
     std::cin >> raio;
 
+    // Chamada da função circulo
     circulo (raio, area, perimetro);
 
+    // Exibição dos resultados utilizando as funções com retorno e a passagem por referência
     std::cout << "Valores por funções com retorno:\n";
     std::cout << "Área = " << area_circulo (raio) << std::endl;
     std::cout << "Perímetro = " << perimetro_circulo (raio) << std::endl;
